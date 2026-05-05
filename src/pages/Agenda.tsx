@@ -31,15 +31,6 @@ export const Agenda = () => {
     }
   };
 
-  const getBadgeColor = (type: string) => {
-    switch (type) {
-      case 'examen': return 'bg-red-100 text-red-600';
-      case 'reunion': return 'bg-blue-100 text-blue-600';
-      case 'evento': return 'bg-amber-100 text-amber-600';
-      default: return 'bg-gray-100 text-gray-600';
-    }
-  };
-
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-6 pt-6 pb-2">

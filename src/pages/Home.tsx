@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bell, Search, GraduationCap, Calendar, AlertTriangle, Megaphone } from 'lucide-react';
+import { Bell, GraduationCap, Calendar, AlertTriangle, Megaphone } from 'lucide-react';
 import { messages } from '../data/mockData';
 import { cn } from '../utils/cn';
 import { Link } from 'react-router-dom';
